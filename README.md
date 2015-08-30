@@ -1,3 +1,4 @@
+#Ruby version 2.0.0
 # Currency Conversion for US Dollar
 
 This program will fetch data on an xml site and will ask you to input a country name.
