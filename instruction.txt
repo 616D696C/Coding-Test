@@ -1,0 +1,11 @@
+# Ruby version 2.0.0
+# libraries used: nokogiri and open-uri
+
+I used Ruby v2.0.0 since this is the latest compatible version for the library nokogiri. 
+The library Nokogiri will do the parsing on the URL fetched by the library open-uri.
+
+The moment you run the program, you will be ask to choose a country name on the available currency conversion list for US Dollar. I only entered a few countries just to test if the program is working and so that it won't take too much time to load.
+
+The countries are Norway, China, Philippines, Russia and Japan. If you input a value, it will then check if what you inputted is found in the list of countries. If its not then the program will print a string that says "No currency rate available for this country". If yes, then it will go to a loop and find the currency conversion of US Dollar to that country you inputted. The loop will stop the moment your country is found and display that conversion.
+
+Inputting the name of the country is not case-sensitive. Therefore you can input NORwaY and it will get the currency conversion of US Dollar for Norway.
